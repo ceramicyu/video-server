@@ -1,4 +1,4 @@
-package main
+package video_server
 
 import (
 	"net/http"
@@ -6,6 +6,9 @@ import (
 	"io"
 )
 
-func CreateUser(w http.ResponseWriter,r *http.Request,p httprouter.Params){
-	io.WriteString(w,"sghjgfjahgj")
+func CreateUser(w http.ResponseWriter ,r *http.Request ,p httprouter.Params)  {
+	io.WriteString(w,"hhhhhhhh88888")
+}
+func Login(w http.ResponseWriter ,r *http.Request ,p httprouter.Params){
+
 }
