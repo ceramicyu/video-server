@@ -1,4 +1,4 @@
-package video_server
+package api
 
 import (
 	"net/http"
