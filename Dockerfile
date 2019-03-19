@@ -3,4 +3,4 @@ MAINTAINER  video_server
 WORKDIR /go/src/
 COPY ./bin ./bin
 EXPOSE 80
-ENTRYPOINT  ["./streamserver/streamserver"]
+ENTRYPOINT  ["./bin/streamserver"]
