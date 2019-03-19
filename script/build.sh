@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-cd /go/src/app/ && ./main
+cd /go/src/app/ && ./streamserver
