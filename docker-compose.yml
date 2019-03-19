@@ -7,7 +7,7 @@ services:
 
   world:
     container_name: world
-    image: go-web
+    image: video-server-stream
     ports:
       - "8099:80"
     volumes:
