@@ -39,5 +39,5 @@ func (m *middleWareHandler)ServerHTTP(w http.ResponseWriter,r *http.Request){
 func main(){
 	r:=RegisterHandlers()
 	mh:=NewMiddleWareHandler(r,2)
-	http.ListenAndServe(":8080",mh)
+	http.ListenAndServe(":80",mh)
 }
