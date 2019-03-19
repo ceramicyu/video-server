@@ -1,6 +1,6 @@
 FROM golang
 MAINTAINER  video_server
 WORKDIR /go/src/
-COPY . .
+COPY ./bin ./bin
 EXPOSE 80
 ENTRYPOINT  ["./streamserver/streamserver"]
